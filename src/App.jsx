@@ -1,7 +1,8 @@
 import Main from "./components/main/Main"
 import Sidebar from "./components/sidebar/Sidebar"
 import DialogflowChat from "./DialogflowChat"
-require('dotenv').config();
+import.meta.env;
+
 const App = () => {
   return (
     <>
