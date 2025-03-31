@@ -3,12 +3,12 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const config = {
-  client_id: process.env.GOOGLE_CLIENT_ID,
-  project_id: process.env.GOOGLE_PROJECT_ID,
+  client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID,
+  project_id: import.meta.env.VITE_GOOGLE_PROJECT_ID,
   auth_uri: "https://accounts.google.com/o/oauth2/auth",
   token_uri: "https://oauth2.googleapis.com/token",
   auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
-  client_secret: process.env.GOOGLE_CLIENT_SECRET
+  client_secret: import.meta.env.VITE_GOOGLE_CLIENT_SECRET
 };
 
 async function getAccessToken() {

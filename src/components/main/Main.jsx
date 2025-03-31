@@ -20,7 +20,7 @@ const Main = () => {
   return (
     <div className="main">
       <div className="nav">
-        <p>Gemini</p>
+        <p>Bajaj AI</p>
         <img src={assets.user} alt="" />
       </div>
       <div className="main-container">
@@ -90,7 +90,7 @@ const Main = () => {
               <p>{recentPrompt}</p>
             </div>
             <div className="result-data">
-              <img src={assets.gemini_icon} alt="" />
+              {/* <img src={assets.gemini_icon} alt="" /> */}
               {loading ? (
                 <div className="loader">
                   <hr />
