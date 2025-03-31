@@ -54,7 +54,7 @@ const Main = () => {
   return (
     <div className="main">
       <div className="nav">
-        <p>Bajaj AI</p>
+        <p>AI Agent - Relationship Manager</p>
         <img src={assets.user} alt="" />
       </div>
       <div className="main-container">
