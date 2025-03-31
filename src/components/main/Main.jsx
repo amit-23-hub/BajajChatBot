@@ -29,56 +29,52 @@ const Main = () => {
             <div className="greet">
               <p>
                 <span>
-                <Typewriter
-                  options={{
-					  strings: ["Hello, Coders"],
-					  autoStart: true,
-					  loop: true,
-					}}
-					/>
-				</span>
+                  <Typewriter
+                    options={{
+                      strings: ["Hello, Amit "],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+                </span>
               </p>
-              <p>How Can i Help You Today?</p>
+              <p>How Can I Assist You with Financial Policies Today?</p>
             </div>
             <div className="cards">
               <div
                 className="card"
                 onClick={() =>
-                  handleCardClick("Suggest Some Place To Visit In Rajasthan")
+                  handleCardClick("Explain the latest tax-saving policies in India")
                 }
               >
-                <p>Suggest Some Place To Visit In Rajasthan </p>
+                <p>Explain the latest tax-saving policies in India</p>
                 <img src={assets.compass_icon} alt="" />
               </div>
               <div
                 className="card"
                 onClick={() =>
-                  handleCardClick(
-                    "Quiz me on ancient civilizations"
-                  )
+                  handleCardClick("Compare fixed deposits and mutual funds")
                 }
               >
-                <p>Quiz me on ancient civilizations </p>
+                <p>Compare fixed deposits and mutual funds</p>
                 <img src={assets.message_icon} alt="" />
               </div>
               <div
                 className="card"
                 onClick={() =>
-                  handleCardClick("Message to comfort a friend")
+                  handleCardClick("How does inflation impact personal savings?")
                 }
               >
-                <p>Message to comfort a friend</p>
+                <p>How does inflation impact personal savings?</p>
                 <img src={assets.bulb_icon} alt="" />
               </div>
               <div
                 className="card"
                 onClick={() => {
-                  handleCardClick(
-                    "Create a Script for the youtube video about coding "
-                  );
+                  handleCardClick("Steps to create a financial budget for 2024")
                 }}
               >
-                <p>Create a Script for the youtube video about coding </p>
+                <p>Steps to create a financial budget for 2024</p>
                 <img src={assets.code_icon} alt="" />
               </div>
             </div>
@@ -90,7 +86,6 @@ const Main = () => {
               <p>{recentPrompt}</p>
             </div>
             <div className="result-data">
-              {/* <img src={assets.gemini_icon} alt="" /> */}
               {loading ? (
                 <div className="loader">
                   <hr />
@@ -112,7 +107,7 @@ const Main = () => {
               }}
               value={input}
               type="text"
-              placeholder="Enter the Prompt Here"
+              placeholder="Enter the Financial Query Here"
             />
             <div>
               <img src={assets.gallery_icon} alt="" />
@@ -128,8 +123,7 @@ const Main = () => {
           </div>
           <div className="bottom-info">
             <p>
-              Gemini may display inaccurate info, including about people, so
-              double-check its responses. Your privacy & Gemini Apps
+              Bajaj AI provides insights on financial policies, but please verify critical financial decisions with an expert.
             </p>
           </div>
         </div>
