@@ -32,6 +32,9 @@
     -webkit-text-fill-color: transparent;
     
 }
+.main-container .greet p{
+    font-size: 32px;
+}
 .main .cards{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(180px,1fr));

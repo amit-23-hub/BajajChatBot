@@ -38,7 +38,7 @@ const Main = () => {
                   />
                 </span>
               </p>
-              <p>How Can I Assist You with Financial Policies Today?</p>
+              <p>How Can I Assist You with Financial Policies today?</p>
             </div>
             <div className="cards">
               <div
